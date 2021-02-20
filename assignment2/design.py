@@ -1,0 +1,20 @@
+import os
+from colorama import Fore, init, Back, Style
+init()
+
+F_RED = Fore.RED
+B_RED = Back.RED
+F_BLUE = Fore.BLUE
+B_BLUE = Back.BLUE
+F_BLACK = Fore.BLACK
+B_BLACK = Back.BLACK
+F_GREEN = Fore.GREEN
+B_GREEN = Back.GREEN
+B_YELLOW = Back.YELLOW
+B_CYAN = Back.CYAN
+B_MIX = B_CYAN+B_RED
+B_MAGENTA = Back.MAGENTA
+B_LIGHTYELLOW = Back.LIGHTYELLOW_EX
+RESET = Style.RESET_ALL
+HEIGHT = 50
+WIDTH = 121
